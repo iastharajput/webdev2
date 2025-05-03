@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    </title>
+    <style>
+        body {
+            background-color: rgb(193, 205, 209);
+        }
+
+        h1 {
+            color: rgb(88, 88, 106);
+            text-align: center;
+        }
+
+        /* this is id selector  */
+        #red {
+            color: rgb(3, 10, 12);
+            text-align: center;
+            background: #525e71;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* thia is class selector  */
+
+        .crystal {
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(0, 0, 0);
+            padding: 20px;
+            color: rgb(43, 81, 98);
+            text-align: center;
+        }
+
+        /* child selector  */
+        div p {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(149, 126, 154);
+            padding: 20px;
+            text-align: right;
+        }
+        /* this is pseudo selector  */
+        a:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(47, 42, 95);
+            border: 2px solid rgb(149, 126, 154);
+            padding: 2px;
+            text-align: right;
+        }   
+        a:link {
+            color: rgb(0, 0, 0);
+            background-color: rgb(250, 244, 244);
+            border: 2px solid rgb(149, 126, 154);
+            padding: 2px;
+            text-align: right;
+        }
+       
+    </style>
+    <!--to add comment-->
+</head>
+
+<body>
+    <h1>MY BOOKMARKS</h1>
+
+    <hr>
+
+    <h2 id="red">Primary bookmarks</h2>
+    <a target="_blank" href="//www.google.com"> Open Google</a>
+    <br>
+    <a target="_blank" href="https://www.facebook.com"> Open Facebook</a>
+    <br>
+    <a target="_blank" href="https://www.youtube.com"> Open Youtube</a>
+    <br>
+    <a target="_blank" href="https://www.twitter.com"> Open Twitter</a>
+    <br>
+    <a target="_blank" href="https://www.instagram.com"> Open Instagram</a>
+
+    <hr>
+
+    <h2 id="red">Secondary bookmarks </h2>
+    <a target="_blank" href="https://www.linkedin.com"> Open Linkedin</a>
+    <br>
+    <a target="_blank" href="https://www.github.com"> Open Github</a>
+    <br>
+    <a target="_blank" href="https://www.stackoverflow.com"> Open Stackoverflow</a>
+
+    <hr>
+
+    <p class="crystal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat
+        distinctio numquam illo reprehenderit tempore, optio
+        nemo eos voluptates? Mollitia voluptates non minus.</p>
+
+
+    <img src="https://img.etimg.com/thumb/width-640,height-480,imgsize-1063601,resizemode-75,msid-115732288/industry/transportation/railways/high-speed-trains-indian-railways-280-kmph-speed-aerodynamic-design-indias-next-high-speed-trains-are-coming-soon-beml-icf-ashwini-vaishnaw/indian-railways-speeding-into-future.jpg"
+        alt="image not found">
+    <!-- relative link -->
+
+    <img src="indian-railways-speeding-into-future.webp" height=100px width=100px alt="image not found">
+    <!-- absolute link -->
+    <br>
+    <b>bold</b>
+    <br>
+    <i>hello </i>
+    <br>
+
+    <div>
+        <p>
+            this is a div 
+        </p>
+    </div>
+    <u>underline</u>
+
+    <hr>
+    <h2>HTML Text Formatting</h2>
+    <p><b>this tag show bold text</b></p>
+    <p><strong>this tag show strong text</strong></p>
+    <p><i>this tag show italic text</i></p>
+    <p><em>this tag show emphasized text</em></p>
+    <p><mark>this tag show marked text</mark></p>
+    <p><del>this tag show deleted text</del></p>
+    <p><ins>this tag show inserted text</ins></p>
+    <p><sub>this tag show subscript text</sub></p>
+    <p><sup>this tag show superscript text</sup></p>
+
+    <small>this tag show small text</small>
+    <br>
+    H<sub>2</sub>O
+    <br>
+    x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup>
+    <br>
+
+    <hr>
+
+</body>
+
+</html>
