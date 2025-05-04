@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+        .box{
+            width: 1000px;
+            height: 60px;
+            background-color: rgb(56, 97, 69);
+            border: 2px solid rgb(68, 6, 6);
+            padding: 20px;
+            margin: 20px;
+            box-sizing: border-box;
+            /* box sizing :border-box includes content+padding */
+        }
+        .box1{
+            width: 1000px;
+            height: 60px;
+            background-color: rgb(170, 175, 187);
+            border: 2px solid rgb(139, 61, 61);
+            padding: 20px;
+            margin: 20px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="box" >this is a box model example</div>
+    
+        <div class="box  box1">this is a box model example</div>
+        
+    
+</body>
+
+</html>
