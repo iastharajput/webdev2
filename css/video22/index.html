@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Units Demo</title>
+  <style>
+    /* Base font size for rem calculations */
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container using percentage width */
+    .percent-box {
+      width: 80%;
+      background-color: #e0f7fa;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Box with fixed pixel width */
+    .px-box {
+      width: 300px;
+      background-color: #ffe0b2;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Box using em units for padding */
+    .em-box {
+      font-size: 1.2em;
+      background-color: #c8e6c9;
+      padding: 2em;
+      margin-bottom: 2rem;
+    }
+
+    /* Box using rem units for padding */
+    .rem-box {
+      font-size: 1.2rem;
+      background-color: #d1c4e9;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Full viewport height section */
+    .vh-box {
+      height: 50vh;
+      background-color: #f8bbd0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    /* Full viewport width section */
+    .vw-box {
+      width: 100vw;
+      background-color: #b2dfdb;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="percent-box">
+    <h2>Percentage Width (80%)</h2>
+    <p>This box occupies 80% of the parent container's width.</p>
+  </div>
+
+  <div class="px-box">
+    <h2>Fixed Width (300px)</h2>
+    <p>This box has a fixed width of 300 pixels.</p>
+  </div>
+
+  <div class="em-box">
+    <h2>Padding with em Units</h2>
+    <p>Padding is set to 2em, scaling with the element's font size.</p>
+  </div>
+
+  <div class="rem-box">
+    <h2>Padding with rem Units</h2>
+    <p>Padding is set to 2rem, scaling with the root font size.</p>
+  </div>
+
+  <div class="vh-box">
+    <h2>Height with vh Units</h2>
+    <p>This section is 50% of the viewport height.</p>
+  </div>
+
+  <div class="vw-box">
+    <h2>Width with vw Units</h2>
+    <p>This section spans the full viewport width.</p>
+  </div>
+
+</body>
+</html>
