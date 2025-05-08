@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display property</title>
+    <style>
+        *{margin: 0;  padding: 0; box-sizing: border-box;}
+
+        .box{
+            padding: 45px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            display: inline-block /* Default value */
+        }
+        .box1{
+        display: flex;
+        visibility: hidden;
+        }
+        .hello{
+            display: block;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 45px;
+        }
+        .hello {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        
+        }
+    </style>
+</head>
+<body>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/display -->
+   <div class="box box1">this is a box</div> 
+   <div class="box">this is another box</div>
+   <span>this is also </span>
+   <span>a box</span>
+   <div class="hello">
+    this is a box to show  display grid
+   </div>
+</body>
+</html>
