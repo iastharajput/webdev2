@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <style>
+        p{
+            background-color: #aba2a28 important;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, );
+        }
+        .lorem {
+            background-color: #4f5a7a;
+        }
+        .green {
+            background-color: green;
+        }
+        #pink {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p style="background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate, consequuntur maiores rerum,
+            expedita mollitia incidunt quidem ad vel quos voluptatibus similique impedit libero labore numquam ab velit
+            laboriosam ea distinctio odio. Fuga, molestiae provident voluptatem aut rerum ea ad.</p>
+        
+    </div>
+    <div>
+        <p class="lorem green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate, consequuntur maiores rerum,
+            expedita mollitia incidunt quidem ad vel quos voluptatibus similique impedit libero labore numquam ab velit
+            laboriosam ea distinctio odio. Fuga, molestiae provident voluptatem aut rerum ea ad.</p>
+    </div>
+    <div>
+        <p  class="grey" id="pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate, consequuntur maiores rerum,
+            expedita mollitia incidunt quidem ad vel quos voluptatibus similique impedit libero labore numquam ab velit
+            laboriosam ea distinctio odio. Fuga, molestiae provident voluptatem aut rerum ea ad.</p>
+    
+</body>
+
+</html>
