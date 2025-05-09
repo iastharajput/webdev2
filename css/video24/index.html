@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadows and outlines</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 20px;
+            padding: 34px;
+            justify-content: center;
+
+            box-shadow: 0 0 10px #313d80;
+
+            outline-offset: 10px;
+        }
+        .text-sahdow {
+            text-shadow: 2px 2px 2px #d8b9e0;
+            color: #762e2e;
+            padding: 10px;
+            margin: 20px;
+            outline: auto;
+        }
+        /* border takes space but outline doesnt  */
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        this is a box
+    </div>
+    <div>
+        <p class="text-sahdow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eum reprehenderit nulla dolore perspiciatis,
+            autem est. Labore inventore vel dolor eligendi! Quos, perferendis suscipit. Quasi cum neque est, eveniet
+            natus sequi nulla nihil nemo placeat pariatur similique sint nostrum quam dolores excepturi facilis,
+            expedita deleniti.</p>
+    </div>
+</body>
+
+</html>
