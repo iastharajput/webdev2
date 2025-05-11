@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow property</title>
+    <style>
+        div {
+            width: 20vw;
+            height: 20vh;
+            border: 2px solid black;
+            /* overflow: auto; */
+            /* overflow-y: hidden; */
+            /* overflow-x: scroll; */
+            overflow: scroll hidden;
+            /* it is a shorthand for overflow-x and overflow-y */
+            /* like coordinate geomtry (x,y) */
+            margin: 2%;
+        }
+
+        p {
+            width: 30vw;
+            height: 20vh;
+            border: 2px solid black;
+            overflow: hidden;
+            margin: 2%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis sapiente nesciunt laboriosam aut, molestiae
+        eaque fugiat. Quia corporis eligendi dolores, repellat nisi nesciunt odit libero optio? In cupiditate hic
+        accusantium?
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Quod, cumque. Quisquam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque incidunt consectetur beatae quasi molestias
+        quaerat, voluptates architecto. Deserunt nam unde doloremque dolor voluptatum vitae, fugit et error tempora
+        expedita repellat?
+
+    </p>
+    /
+</body>
+
+</html>
