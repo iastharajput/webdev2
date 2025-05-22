@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>css variables</title>
+    <style>
+        :root {
+            /* root ke andar sab global variables hote hain */
+            --color: #3498db;
+            --secondary-color: #7ac0ee;
+            --font-size: 20px;
+            --padding: 10px;
+        }
+
+       
+
+        .container{
+            background-color:var(--color);
+            border: black 2px solid;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #86c5d8;
+            
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        li{
+            background: var(--secondary-color);
+            padding: var(--padding);
+            font-size: var(--font-size);
+            border-radius: 5px;
+            border: #0a0e42 2px solid;
+            margin: 10px;
+            
+        
+        }
+        li:hover{
+            background: #e2b2b2;
+            color: #000;
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div>
+        <nav>
+            
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>services</li>
+        
+        </nav>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit sed excepturi maxime asperiores
+            dolorum, eveniet molestiae rem expedita, perferendis, laborum impedit. Cumque optio quia illum libero neque
+            magni, tenetur enimllitia nostrum porro debitis laborum ab nihil, illo accusamus at quasi ratione modi
+            et.</p>
+    </div>
 </body>
+
 </html>
