@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        /* float and clear are not used very often in modern CSS, but they are still useful in some cases. */
+        .card {
+            border: 2px solid #3498db;
+            display: flow-root;
+        }
+
+        img {
+
+            float: left;
+        }
+
+        .card:nth-child(2) {
+            clear: both;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <img src="a-man-sitting-on-a-bench-at-sunset-photo.jpg" alt="">
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, adipisci quasi rerum dolorem
+            totam nulla ratione id cumque fugit ducimus autem quas delectus praesentium sequi voluptas quisquam iure,
+            laboriosam vel quam impedit? Ducimus natus reprehenderit, deleniti quam ipsum delectus non minus ipsam
+            numquam iusto sit?</div>
+        <div class="card">card 2</div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi cum facere
+            distinctio quam vero eos suscipit soluta id, dolorem quidem ex, perspiciatis placeat veniam dignissimos
+            aitatibus ipsam, commodi totam obcaecati iusto
+            quia dolorem illo, aliquam atque perspiciatis! Dolore in eligendi ad numquam consequatur omnis odio ex odit,
+            itaque neque quae!</div>
+    </div>
+
+</body>
+
+</html>
