@@ -19,7 +19,7 @@ console.log(hundred.toLocaleString('en-US'))
 // ***************************************maths**************************************************
 console.log(Math.PI);
 Math.random(); // returns a random number between 0 and 1
-console.log(Math.random());
+console.log(Math.random());8
 
 console.log(Math.abs (-10)); // absolute value
 console.log(Math.ceil(4.2)); // rounds up to the nearest integer

@@ -12,4 +12,4 @@ let address; // undefined
 
 console.log(typeof age)
 console.log(typeof state) 
-console.log(typeof address)
+console.log(typeof address)clear
